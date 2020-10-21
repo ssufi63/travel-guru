@@ -1,0 +1,60 @@
+.logo{
+    width: 150px; 
+    filter: brightness(800);
+   
+    
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    font-size:18px;
+    
+
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color :white;
+
+}
+
+.button{
+    color:black;
+    background-color:#F9A617;
+    border: 1px solid #F9A617;
+    margin-left: 60px;
+}
+
+.button:hover{
+    color:black;
+    background-color:#F9A617;
+    border: 1px solid #F9A617;
+}
+
+
+
+.form-inline .form-control{
+    width: 330px;
+    border: 2px solid white;
+    opacity: 0.6;
+}
+
+.form-control{
+   
+    color: #000000;
+}
+
+::-webkit-input-placeholder{
+    color:black !important;
+ }
+
+ .navBar{
+     color: white;
+ }
+
+ .navBar:hover{
+     color: white;
+     text-decoration:none;
+ }
+ 
+
+ 
