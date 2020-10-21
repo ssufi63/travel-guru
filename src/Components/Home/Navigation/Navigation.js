@@ -16,13 +16,13 @@ const Navigation = () => {
 
 
                     <Form inline>
-                        <FormControl variant='white' type="text" placeholder="Search Your Destination...." className="mr-sm-2" />
+                        <FormControl variant='white' type="text" placeholder="Search Your Destination...." className="search-bar mr-sm-2" />
                     </Form>
 
                     <Link className='navBar ml-5' to="home">News</Link>
-                    <Link className='navBar ml-5' to="destination">Destination</Link>
-                    <Link className='navBar ml-5' to="blog">Blog</Link>
-                    <Link className='navBar ml-5' to="contact">Contact</Link>
+                    <Link className='navBar ml-5' to="login">Destination</Link>
+                    <Link className='navBar ml-5' to="home">Blog</Link>
+                    <Link className='navBar ml-5' to="login">Contact</Link>
                     <Link to='/login'><Button className='button'>Login</Button></Link>
                 </Navbar.Collapse>
             </Navbar>

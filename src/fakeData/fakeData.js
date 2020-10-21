@@ -2,14 +2,14 @@ var fakeData = [
     {
         "id": 1,
         "name": "Sundarban",
-        "description": "The Sundarbans are the largest littoral mangrove belt in the world, stretching 80 km (50 mi) into the Bangladeshi and Indian hinterland from the coast. The Sundarbans has been declared a UNESCO World Heritage Site.",
+        "description": "The Sundarbans is a mangrove area in the delta formed by the confluence of the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal. The Sundarbans has been declared a UNESCO World Heritage Site.",
         "image": "https://i.ibb.co/CnsbDV7/sundorbon.png"
     },
 
     {
         "id": 2,
         "name": "Sajek",
-        "description": "Sajek Valley is a famous tourist destination in Sajek Union under Baghaichhari upazila of Rangamati district in Bangladesh. The name of Sajek Valley came from the Sajek River that originates from Karnafuli river",
+        "description": "Sajek valley is known for its natural environment and is surrounded by mountains, dense forest, and grassland hill tracks.Sajek Valley is a famous tourist destination in Sajek Union under Baghaichhari upazila of Rangamati district in Bangladesh.",
         "image": "https://i.ibb.co/QKQPxcX/Sajek.png"
     },
 

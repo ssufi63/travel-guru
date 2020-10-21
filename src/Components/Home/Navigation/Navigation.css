@@ -1,8 +1,9 @@
 .logo{
     width: 150px; 
     filter: brightness(800);
-   
-    
+}
+.form-control::placeholder { 
+    color: black;
 }
 
 .navbar-dark .navbar-brand {
@@ -15,6 +16,13 @@
 .navbar-dark .navbar-nav .nav-link:hover{
     color :white;
 
+}
+.search-bar{
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 2px solid white;
+    border-radius: 3px;
+    padding: 3px 20px;
+    color: white;
 }
 
 .button{
@@ -42,11 +50,6 @@
    
     color: #000000;
 }
-
-::-webkit-input-placeholder{
-    color:black !important;
- }
-
  .navBar{
      color: white;
  }

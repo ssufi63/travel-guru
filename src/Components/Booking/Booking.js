@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Booking.css'
 import { Col, Container, Row } from 'react-bootstrap';
-import { Link, useParams, } from 'react-router-dom';
+import { Link,} from 'react-router-dom';
 import fakeData from '../../fakeData/fakeData'
 import Navigation from '../Home/Navigation/Navigation';
 
@@ -9,7 +9,7 @@ const Booking = () => {
     const card = fakeData;
     const [showCard, setShowCard] = useState(card[0]);
     return (
-    <section className="homepage">
+    <section className="home">
 
         <div className="background"></div>
             <Navigation></Navigation>

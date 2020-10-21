@@ -18,9 +18,6 @@ const Body = () => {
                         <h2 className='placeName'>{showCard.name}</h2>
                         <p className='description'>{showCard.description}</p>
                         <br />
-                        <Link style={{ 'text-decoration': 'none' }} to={'/booking/' + showCard.name}><button className='booking'>Booking</button> </Link>
-
-
                     </Col>
 
                     <Col lg={7} className=''>
@@ -30,10 +27,14 @@ const Body = () => {
                                 <Col className='pic' sm={4} key={data.name}>
 
                                     <div>
+
                                         <Link to={`/booking/${data.name}`}> <img className="cardImage" src={data.image} alt="" />
                                             <h4 className="textPlace"><b>{data.name}</b></h4>
-
                                         </Link>
+                                        <Link to={`/booking/${data.name}`}><h4 className="textPlace"><b>{data.name}</b></h4>
+                                        </Link>
+                                        <Link style={{ 'text-decoration': 'none' }} to={'/booking/' + showCard.name}><button className='booking'>Booking</button> </Link>
+
                                     </div>
                                 </Col>)
                             }

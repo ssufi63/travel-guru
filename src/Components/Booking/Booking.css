@@ -1,4 +1,4 @@
-.homepage{
+.home{
     background:url(../../images/Rectangle1.png);
     background-repeat:no-repeat;
     background-position:center;
@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 90px;
-    color: #FFFFFF;
+    color: white;
     }
 
 .description{
@@ -32,16 +32,16 @@
     font-style: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: white;
     }
     .form-area{
-        background-color: #FFFFFF;
+        background-color: white;
         padding: 30px;
         border-radius: 10px;
        
     }
 
     .form-control{
-        background-color: #F2F2F2;
+        background-color: whitesmoke;
         color: black;
     }
