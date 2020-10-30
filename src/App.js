@@ -8,7 +8,9 @@ import {
 import './App.css';
 import Booking from './Components/Booking/Booking';
 import Home from './Components/Home/Home/Home';
+import HotelDetails from './Components/Hotel/HotelDetails';
 import Login from './Components/Login/Login';
+import NotFound from './Components/NotFound/NotFound';
 import PrivateRoute from './Components/PrivateRoute/PrivateRoute';
 
 
@@ -29,9 +31,15 @@ function App() {
     <Route path='/login'>
       <Login></Login>
         </Route>
-        <PrivateRoute path='/booking/:placeName'>
+        <Route path='/booking/:placeName'>
           <Booking></Booking>
+        </Route>
+        <PrivateRoute exact path='/hotelDetails'>
+          <HotelDetails></HotelDetails>
         </PrivateRoute>
+        <Route path='*'>
+          <NotFound></NotFound>
+        </Route>
   </Switch>
 </Router>
 
